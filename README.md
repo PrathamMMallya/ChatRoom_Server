@@ -76,17 +76,17 @@ Open multiple terminals for clients:
 ```
 ## Usage
 
-```
+
 Enter your name when prompted.
 Send messages to everyone.
 To send private messages , use:
-```
+
 ```
 @username your message here
 ```
-```
+
 To exit , type:
-```
+
 ```
 #exit
 ```
