@@ -17,15 +17,13 @@ Secure credential check from file\ ANSI colored console output for better UX
 
 ## Features
 
-```
-Multiclient Chat Server using Winsock
-Thread-per-client model using std::thread
-User authentication via credentials.txt
-Public and private messaging
-BST message storage (per user)
-Colored message output based on client ID
-Clean separation of concerns with helper functions
-```
+-- Multiclient Chat Server using Winsock
+-- Thread-per-client model using std::thread
+-- User authentication via credentials.txt
+-- Public and private messaging
+-- BST message storage (per user)
+-- Colored message output based on client ID
+
 ## Tech Stack
 
 ```
