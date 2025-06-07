@@ -35,10 +35,10 @@ Build System: MSVC / g++ (on Windows)
 
 ### Step 1: Setup
 
-```
+
 Ensure you have a C++ compiler like MSVC or g++ (MinGW).
 Install any IDE or run from command line (Visual Studio recommended).
-```
+
 ### Step 2: Create credentials
 
 Create a file named credentials.txt with the following format:
@@ -62,15 +62,14 @@ g++client.cpp -o client-lws2_32-std=c++
 ```
 ### Step 4: Run
 
-```
 Open 1 terminal and run:
-```
+
 ```
 ./server
 ```
-```
+
 Open multiple terminals for clients:
-```
+
 ```
 ./client
 ```
@@ -94,26 +93,24 @@ To exit , type:
 
 Each message is inserted into a **Binary Search Tree** using the sender’s name as the key. This allows for:
 
-```
 Sorted display by username
 Efficient future enhancements like search history per user
-```
+
 While Python/Node.js simplify development, C++ offers:
 
-```
 Raw control over sockets
 Thread-level control for concurrency
 Zero dependency binary
 Faster execution in low-latency environments
-```
-```
+
+
 This project shows that you can still build robust real-time apps in C++ with complete control
 and performance benefits.
-```
+
 
 ## Credits
 
-Made by **Pratham Mallya** \ For all those who believe **Performance and elegance can coexist** —even
+Made by **Pratham Mallya**  For all those who believe **Performance and elegance can coexist** —even
 in C++.
 
 
