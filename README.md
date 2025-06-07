@@ -1,19 +1,18 @@
 # C++ Multiclient Chatroom Application 
 
-```
+
 Built with Winsock2 , threads , and custom BST for message storage
-```
+
 ## Why This Project?
 
 In a world where rapid development with Python or Node.js is the norm, **this project proves that C++ is
 still a powerful and relevant choice** for building real-time, scalable networking applications—especially
 when you want **fine-grained control over memory, performance, and socket behavior**.
 
-```
+
 When people say “C++ is not meant for modern development” , this chatroom proves otherwise.
-```
-Multithreaded\ Private messaging\ In-memory message history using **Binary Search Tree (BST)** \
-Secure credential check from file\ ANSI colored console output for better UX
+
+Multithreaded --   Private messaging --   In-memory message history using **Binary Search Tree (BST)** --  Secure credential check from file\ ANSI colored console output for better UX
 
 ## Features
 
@@ -26,13 +25,11 @@ Secure credential check from file\ ANSI colored console output for better UX
 
 ## Tech Stack
 
-```
 Language: C++ (17 or above)
 Platform: Windows (WinSock2 API)
 Threads: std::thread
 Socket APIs: WSAStartup, socket, bind, connect, recv, send, etc.
 Build System: MSVC / g++ (on Windows)
-```
 
 ## How to Run (Windows only)
 
